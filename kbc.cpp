@@ -8,9 +8,9 @@ int main()
     do
     {
         cout<<"                                              ___________________________________________________________    \n";
+        cout<<"                                        |                                                           |   \n";
         cout<<"                                             |                                                           |   \n";
-        cout<<"                                             |                                                           |   \n";
-        cout<<"                                             |                                                           |   \n";
+        cout<<"                                         |                                                           |   \n";
         cout<<"                                             |          W E L C O M E   T O   K B C                      |   \n";
         cout<<"                                             |                                                           |   \n";
         cout<<"                                             |                                                           |   \n";
