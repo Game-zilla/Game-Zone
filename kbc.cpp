@@ -1,28 +1,35 @@
-#include<iostream>
-
+#include<iostream>  
 using namespace std;
 int main()
 {
-    char name[50],ch[11];
-    int x;
+    char nameOfUser[50],inputValue[11];   // name and ch
+    int var=0;   //x
    
     do
     {
-        x=0;
-        cout<<"\n       Welcome to KBC";
-        cout<<"\n\n Enter your name: ";
-        cin>>name;
-        cout<<"\n Enter answer in form of 'a','b' and'c'only.";
+        cout<<"   ___________________________________________________________    \n";
+        cout<<"  |                                                           |   \n";
+        cout<<"  |                                                           |   \n";
+        cout<<"  |                                                           |   \n";
+        cout<<"  |          W E L C O M E   T O   K B C                      |   \n";
+        cout<<"  |                                                           |   \n";
+        cout<<"  |                                                           |   \n";
+        cout<<"  |                                                           |   \n";
+        cout<<"   ___________________________________________________________    \n";
+        
+        cout<<"\n\n Enter your Name: ";
+        cin>>nameOfUser;
+        cout<<"\n Enter answer in Form of 'a','b' and'c'only.";
         cout<<"\n Q1.What is called as ' THE HOLY LAND'?";
         cout<<"\n a.Jerusalem";
         cout<<"\n b.Mathura";
         cout<<"\n c.Mecca";
-        cin>>ch[1];
-        if(ch[1]=='a')
+        cin>>inputValue[1];
+        if(inputValue[1]=='a')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -33,12 +40,12 @@ int main()
         cout<<"\n a.Nepal";
         cout<<"\n b.Rome";
         cout<<"\n c.Tibet";
-        cin>>ch[2];
-        if(ch[2]=='c')
+        cin>>inputValue[2];
+        if(inputValue[2]=='c')
         {
-            x=x+10;
+           var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -49,12 +56,12 @@ int main()
         cout<<"\n a.Chicago";
         cout<<"\n b.Japan";
         cout<<"\n c.Tibet";
-        cin>>ch[3];
-        if(ch[3]=='b')
+        cin>>inputValue[3];
+        if(inputValue[3]=='b')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -65,12 +72,12 @@ int main()
         cout<<"\n a.Chicago";
         cout<<"\n b.Egypt";
         cout<<"\n c.Africa";
-        cin>>ch[4];
-        if(ch[4]=='b')
+        cin>>inputValue[4];
+        if(inputValue[4]=='b')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -81,12 +88,12 @@ int main()
         cout<<"\n a.Norway";
         cout<<"\n b.Japan";
         cout<<"\n c.Australia";
-        cin>>ch[5];
-        if(ch[5]=='a')
+        cin>>inputValue[5];
+        if(inputValue[5]=='a')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -97,12 +104,12 @@ int main()
         cout<<"\n a.Bhutan";
         cout<<"\n b.Canada";
         cout<<"\n c.Arab";
-        cin>>ch[6];
-        if(ch[6]=='a')
+        cin>>inputValue[6];
+        if(inputValue[6]=='a')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -113,12 +120,12 @@ int main()
         cout<<"\n a.Jerusalem";
         cout<<"\n b.Japan";
         cout<<"\n c.Chicago";
-        cin>>ch[7];
-        if(ch[7]=='c')
+        cin>>inputValue[7];
+        if(inputValue[7]=='c')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -129,12 +136,12 @@ int main()
         cout<<"\n a.Bangladesh";
         cout<<"\n b.Thailand";
         cout<<"\n c.India";
-        cin>>ch[8];
-        if(ch[8]=='b')
+        cin>>inputValue[8];
+        if(inputValue[8]=='b')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -145,12 +152,12 @@ int main()
         cout<<"\n a.Rome";
         cout<<"\n b.Nilgiri Hills";
         cout<<"\n c.Tibet";
-        cin>>ch[9];
-        if(ch[9]=='a')
+        cin>>inputValue[9];
+        if(inputValue[9]=='a')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -161,12 +168,12 @@ int main()
         cout<<"\n a.Asia";
         cout<<"\n b.Australia";
         cout<<"\n c.Africa";
-        cin>>ch[10];
-        if(ch[10]=='c')
+        cin>>inputValue[10];
+        if(inputValue[10]=='c')
         {
-            x=x+10;
+            var=var+10;
             cout<<"\n Good Job.";
-            cout<<"\n Your score is "<<x;
+            cout<<"\n Your score is "<<var;
         }
         else
         {
@@ -174,33 +181,33 @@ int main()
             goto abc;
         }
         abc:
-        if(x==100)
+        if(var==100)
         {
-            cout<<"\n No cheating...... "<<name<<" you have done this earlier also.";
+            cout<<"\n No cheating...... "<<nameOfUser<<" you have done this earlier also.";
             break;
         }
-        if(x==90)
+        if(var==90)
         {
-            cout<<"\n "<<name<<" you are extremely intelligent.";
+            cout<<"\n "<<nameOfUser<<" you are extremely intelligent.";
             cout<<"\n Your Score is 90";
         }
-        if(x==80)
+        if(var==80)
         {
-            cout<<"\n "<<name<<" you are intelligent.";
+            cout<<"\n "<<nameOfUser<<" you are intelligent.";
             cout<<"\n Your Score is 80";
         }
-        if(50==x||x==70||x==60)
+        if(50==var||var==70||var==60)
         {
-            cout<<"\n "<<name<<" you are average";
-            cout<<"\n Your Score is "<<x<<".";
+            cout<<"\n "<<nameOfUser<<" you are average";
+            cout<<"\n Your Score is "<<var<<".";
             cout<<"\n Better luck next time";
         }
         else
-        if(x<=40)
+        if(var<=40)
             cout<<"\n No use........ Not even 5 questions right";
         cout<<"\n\n\n Do you want to play again?(y/n)";
-        cin>>ch[11];
+        cin>>inputValue[11];
     }
-    while(ch[11]=='Y'||ch[11]=='y');
+    while(inputValue[11]=='Y'||inputValue[11]=='y');
     
 }
