@@ -7,21 +7,23 @@ int main()
    
     do
     {
-        cout<<"   ___________________________________________________________    \n";
-        cout<<"  |                                                           |   \n";
-        cout<<"  |                                                           |   \n";
-        cout<<"  |                                                           |   \n";
-        cout<<"  |          W E L C O M E   T O   K B C                      |   \n";
-        cout<<"  |                                                           |   \n";
-        cout<<"  |                                                           |   \n";
-        cout<<"  |                                                           |   \n";
-        cout<<"   ___________________________________________________________    \n";
+        cout<<"                                              ___________________________________________________________    \n";
+        cout<<"                                             |                                                           |   \n";
+        cout<<"                                             |                                                           |   \n";
+        cout<<"                                             |                                                           |   \n";
+        cout<<"                                             |          W E L C O M E   T O   K B C                      |   \n";
+        cout<<"                                             |                                                           |   \n";
+        cout<<"                                             |                                                           |   \n";
+        cout<<"                                             |                                                           |   \n";
+        cout<<"                                             |___________________________________________________________|   \n";
         
         cout<<"\n\n Enter your Name: ";
         cin>>nameOfUser;
-        cout<<"\n Enter answer in Form of 'a','b' and'c'only.";     // Instructions For user
-        cout<<"\n Q1.What is called as ' THE HOLY LAND'?";       // first Question
-        cout<<"\n a.Jerusalem";
+        cout<<"\n Enter answer in Form of 'a','b' and'c'only.";    // Instructions For user
+        cout<<endl;
+        cout<<endl;
+        cout<<"\n Q1.Who is the father of 'C' language ?";       // first Question
+        cout<<"\n a.";
         cout<<"\n b.Mathura";
         cout<<"\n c.Mecca";
         cin>>inputValue[1];
